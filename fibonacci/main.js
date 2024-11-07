@@ -24,13 +24,11 @@ function calcularFibo(n){
     }
     return fibo
 }
-
 console.log(calcularFibo(5))
-
 btn.addEventListener("click",()=>{
     resultado = calcularFibo(numero)
     console.log(resultado)
     let hijo = document.createElement("h3")
-    hijo.innerHTML =`La serie de FIbonacci del ${numero} es ${numero}`
+    hijo.innerHTML =`La serie de Fibonacci del ${numero} es ${numero}`
     salida.appendChild(hijo)
 })
